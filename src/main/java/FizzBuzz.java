@@ -1,6 +1,7 @@
 public class FizzBuzz {
 
     public static final String FIZZ = "Fizz";
+    public static final String BUZZ = "Buzz";
 
     public String convert(int inputNumber) {
         String result = String.valueOf(inputNumber);
@@ -10,13 +11,13 @@ public class FizzBuzz {
             result = FIZZ;
         }
         if(inputNumber == 5) {
-            return "Buzz";
+            result = BUZZ;
         }
         if(inputNumber == 10) {
-            return "Buzz";
+            result = BUZZ;
         }
         if(inputNumber == 20) {
-            return "Buzz";
+            result = BUZZ;
         }
         return result;
     }
