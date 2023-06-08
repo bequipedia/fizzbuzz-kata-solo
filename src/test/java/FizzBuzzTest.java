@@ -7,9 +7,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FizzBuzzTest {
 
+    FizzBuzz fizzbuzz = new FizzBuzz();
     @Test
     void should_return_string_of_input_when_not_multiple_of_three_or_five() {
-        FizzBuzz fizzbuzz = new FizzBuzz();
         String expectedOutput = "1";
         int inputNumber = 1;
 
@@ -20,7 +20,6 @@ public class FizzBuzzTest {
 
     @Test
     void should_return_string_of_2_when_given_int_2() {
-        FizzBuzz fizzbuzz = new FizzBuzz();
         String expectedOutput = "2";
         int inputNumber = 2;
 
@@ -30,7 +29,6 @@ public class FizzBuzzTest {
     }
     @Test
     void should_return_Fizz_when_given_int_3() {
-        FizzBuzz fizzbuzz = new FizzBuzz();
         String expectedOutput = "Fizz";
         int inputNumber = 3;
 
@@ -41,7 +39,6 @@ public class FizzBuzzTest {
 
     @Test
     void should_return_Fizz_when_given_int_6() {
-        FizzBuzz fizzbuzz = new FizzBuzz();
         String expectedOutput = "Fizz";
         int inputNumber = 6;
 
@@ -51,7 +48,6 @@ public class FizzBuzzTest {
     }
     @Test
     void should_return_Fizz_when_given_int_9() {
-        FizzBuzz fizzbuzz = new FizzBuzz();
         String expectedOutput = "Fizz";
         int inputNumber = 9;
 
@@ -62,7 +58,6 @@ public class FizzBuzzTest {
 
     @Test
     void should_return_Buzz_when_given_int_5() {
-        FizzBuzz fizzbuzz = new FizzBuzz();
         String expectedOutput = "Buzz";
         int inputNumber = 5;
 
@@ -72,7 +67,6 @@ public class FizzBuzzTest {
     }
     @Test
     void should_return_Buzz_when_given_int_10() {
-        FizzBuzz fizzbuzz = new FizzBuzz();
         String expectedOutput = "Buzz";
         int inputNumber = 10;
 
@@ -82,7 +76,6 @@ public class FizzBuzzTest {
     }
     @Test
     void should_return_Buzz_when_given_int_20() {
-        FizzBuzz fizzbuzz = new FizzBuzz();
         String expectedOutput = "Buzz";
         int inputNumber = 20;
 
@@ -92,7 +85,6 @@ public class FizzBuzzTest {
     }
     @Test
     void should_return_FizzBuzz_when_given_int_15() {
-        FizzBuzz fizzbuzz = new FizzBuzz();
         String expectedOutput = "FizzBuzz";
         int inputNumber = 15;
 
@@ -102,7 +94,6 @@ public class FizzBuzzTest {
     }
     @Test
     void should_return_FizzBuzz_when_given_int_30() {
-        FizzBuzz fizzbuzz = new FizzBuzz();
         String expectedOutput = "FizzBuzz";
         int inputNumber = 30;
 
@@ -112,7 +103,6 @@ public class FizzBuzzTest {
     }
     @Test
     void should_return_FizzBuzz_when_given_int_45() {
-        FizzBuzz fizzbuzz = new FizzBuzz();
         String expectedOutput = "FizzBuzz";
         int inputNumber = 45;
 
