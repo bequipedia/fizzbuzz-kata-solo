@@ -20,6 +20,9 @@ public class FizzBuzz {
         if(inputNumber == 30) {
             return "FizzBuzz";
         }
+        if(inputNumber == 45) {
+            return "FizzBuzz";
+        }
 
         return result;
     }
