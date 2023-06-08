@@ -1,8 +1,12 @@
 public class FizzBuzz {
     public String convert(int inputNumber) {
-        if(inputNumber == 2) {
-            return "2";
+        String result = "1";
+        if(inputNumber == 3) {
+            result = "3";
         }
-        return "1";
+        if(inputNumber == 2) {
+            result = "2";
+        }
+        return result;
     }
 }
