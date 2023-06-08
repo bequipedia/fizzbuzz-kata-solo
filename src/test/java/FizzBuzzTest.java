@@ -49,4 +49,15 @@ public class FizzBuzzTest {
 
         assertEquals(expectedOutput, actualOutput);
     }
+    @Test
+    void should_return_Fizz_when_given_int_9() {
+        FizzBuzz fizzbuzz = new FizzBuzz();
+        String expectedOutput = "Fizz";
+        int inputNumber = 9;
+
+        String actualOutput = fizzbuzz.convert(inputNumber);
+
+        assertEquals(expectedOutput, actualOutput);
+    }
+
 }
