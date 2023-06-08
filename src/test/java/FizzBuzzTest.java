@@ -29,9 +29,9 @@ public class FizzBuzzTest {
         assertEquals(expectedOutput, actualOutput);
     }
     @Test
-    void should_return_string_of_3_when_given_int_3() {
+    void should_return_Fizz_when_given_int_3() {
         FizzBuzz fizzbuzz = new FizzBuzz();
-        String expectedOutput = "3";
+        String expectedOutput = "Fizz";
         int inputNumber = 3;
 
         String actualOutput = fizzbuzz.convert(inputNumber);
