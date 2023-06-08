@@ -90,6 +90,16 @@ public class FizzBuzzTest {
 
         assertEquals(expectedOutput, actualOutput);
     }
+    @Test
+    void should_return_FizzBuzz_when_given_int_15() {
+        FizzBuzz fizzbuzz = new FizzBuzz();
+        String expectedOutput = "FizzBuzz";
+        int inputNumber = 15;
+
+        String actualOutput = fizzbuzz.convert(inputNumber);
+
+        assertEquals(expectedOutput, actualOutput);
+    }
 
 
 }
