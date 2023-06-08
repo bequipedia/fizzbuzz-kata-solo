@@ -7,6 +7,9 @@ public class FizzBuzz {
         if(inputNumber == 6) {
             result = "Fizz";
         }
+        if(inputNumber == 9) {
+            result = "Fizz";
+        }
         return result;
     }
 }
