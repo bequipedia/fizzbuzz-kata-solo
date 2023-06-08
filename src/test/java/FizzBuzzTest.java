@@ -101,5 +101,4 @@ public class FizzBuzzTest {
         assertEquals(expectedOutput, actualOutput);
     }
 
-
 }
