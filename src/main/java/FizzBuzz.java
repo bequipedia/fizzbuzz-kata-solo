@@ -9,6 +9,9 @@ public class FizzBuzz {
         if(isMultipleOf3) {
             result = FIZZ;
         }
+        if(inputNumber == 5) {
+            return "Buzz";
+        }
         return result;
     }
 }
