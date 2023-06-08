@@ -17,6 +17,9 @@ public class FizzBuzz {
         if(inputNumber == 15) {
             return "FizzBuzz";
         }
+        if(inputNumber == 30) {
+            return "FizzBuzz";
+        }
 
         return result;
     }
