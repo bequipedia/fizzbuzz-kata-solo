@@ -60,4 +60,16 @@ public class FizzBuzzTest {
         assertEquals(expectedOutput, actualOutput);
     }
 
+    @Test
+    void should_return_Buzz_when_given_int_5() {
+        FizzBuzz fizzbuzz = new FizzBuzz();
+        String expectedOutput = "Buzz";
+        int inputNumber = 5;
+
+        String actualOutput = fizzbuzz.convert(inputNumber);
+
+        assertEquals(expectedOutput, actualOutput);
+    }
+
+
 }
