@@ -1,11 +1,12 @@
 public class FizzBuzz {
     public String convert(int inputNumber) {
+        String result = String.valueOf(inputNumber);
         if(inputNumber == 3) {
-            return "Fizz";
+            result = "Fizz";
         }
         if(inputNumber == 6) {
-            return "Fizz";
+            result = "Fizz";
         }
-        return String.valueOf(inputNumber);
+        return result;
     }
 }
