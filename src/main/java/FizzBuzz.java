@@ -10,15 +10,10 @@ public class FizzBuzz {
         if(isMultipleOf3) {
             result = FIZZ;
         }
-        if(inputNumber == 5) {
+        if(inputNumber == 5 || inputNumber == 10 || inputNumber == 20) {
             result = BUZZ;
         }
-        if(inputNumber == 10) {
-            result = BUZZ;
-        }
-        if(inputNumber == 20) {
-            result = BUZZ;
-        }
+
         return result;
     }
 }
